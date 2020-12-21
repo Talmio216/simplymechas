@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationSequence">
+			    <success>Always</success>
+			    <operations>
+			        <li Class="PatchOperationAdd">
+			        <xpath>Defs/ThingDef[defName = "Gun_Minigun"]/weaponTags</xpath>
+	                    <value>
+                            <li>MechanoidGunHeavy</li>
+                        </value>
+			        </li>
+			    </operations>
+			</li>
+		</operations>
+	</Operation>
+    <Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavy"]</xpath>
+                    <value>
+                       <menuHidden>True</menuHidden>
+                    </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavy"]</xpath>
+                    <value>
+                        <tradeability>None</tradeability>
+                    </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavy"]</xpath>
+                    <value>
+                       <destroyOnDrop>true</destroyOnDrop>
+                    </value>
+            </Operation>
+        </operations>
+    </Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannon"]</xpath>
+                    <value>
+                       <menuHidden>True</menuHidden>
+                    </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannon"]</xpath>
+                    <value>
+                        <tradeability>None</tradeability>
+                    </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannon"]</xpath>
+                    <value>
+                       <destroyOnDrop>true</destroyOnDrop>
+                    </value>
+            </Operation>
+        </operations>
+    </Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_Needle"]</xpath>
+                    <value>
+                       <menuHidden>True</menuHidden>
+                    </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_Needle"]</xpath>
+                    <value>
+                        <tradeability>None</tradeability>
+                    </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Gun_Needle"]</xpath>
+                    <value>
+                       <destroyOnDrop>true</destroyOnDrop>
+                    </value>
+            </Operation>
+        </operations>
+    </Operation>
+</Patch>
