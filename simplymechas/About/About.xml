@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>SimplyMechas</name>
-    <author>Talmio</name>
+    <author>Talmio</author>
     <url>https://github.com/Talmio216/simplymechas/</url>
     <packageId>Talmio.SimplyMechas</packageId>
     <supportedVersions>
