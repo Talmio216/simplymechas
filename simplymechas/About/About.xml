@@ -2,12 +2,12 @@
 <ModMetaData>
     <name>SimplyMechas</name>
     <author>Talmio</author>
-    <url>https://github.com/Talmio216/simplymechas/</url>
+    <!--<url>https://github.com/Talmio216/simplymechas/</url>-->
     <packageId>Talmio.SimplyMechas</packageId>
     <supportedVersions>
         <li>1.0</li>
         <li>1.1</li>
         <li>1.2</li>
-    <supportedVersions>
-    <description>This mod makes mechanoid weapons (heavy charge blaster, inferno cannon, needle gun) obtainable by trade. It also allows the centipedes to use miniguns again.\n\nThis is a remake of the original mod I made in 2019. Now it uses patches instead of directly modifying the def files.</descriprion>
+    </supportedVersions>
+    <description>This mod makes mechanoid weapons (heavy charge blaster, inferno cannon, needle gun) obtainable by trade. It also allows the centipedes to use miniguns again.\n\nThis is a remake of the original mod I made in 2019. Now it uses patches instead of directly modifying the def files.</description>
 </ModMetaData>
