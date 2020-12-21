@@ -16,27 +16,17 @@
 			</li>
 		</operations>
 	</Operation>
-    <Operation>
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavy"]</xpath>
-                    <value>
-                       <menuHidden>True</menuHidden>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavyBase"]/menuHidden</xpath>
             </Operation>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavy"]</xpath>
-                    <value>
-                        <tradeability>None</tradeability>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavyBase"]/tradeability</xpath>
             </Operation>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavy"]</xpath>
-                    <value>
-                       <destroyOnDrop>true</destroyOnDrop>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_ChargeBlasterHeavyBase"]/destroyOnDrop</xpath>
             </Operation>
         </operations>
     </Operation>
@@ -44,22 +34,13 @@
 		<success>Always</success>
 		<operations>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannon"]</xpath>
-                    <value>
-                       <menuHidden>True</menuHidden>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannonBase"]/menuHidden</xpath>
             </Operation>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannon"]</xpath>
-                    <value>
-                        <tradeability>None</tradeability>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannonBase"]/tradeability</xpath>
             </Operation>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannon"]</xpath>
-                    <value>
-                       <destroyOnDrop>true</destroyOnDrop>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_InfernoCannonBase"]/destroyOnDrop</xpath>
             </Operation>
         </operations>
     </Operation>
@@ -67,22 +48,13 @@
 		<success>Always</success>
 		<operations>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_Needle"]</xpath>
-                    <value>
-                       <menuHidden>True</menuHidden>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_Needle"]/menuHidden</xpath>
             </Operation>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_Needle"]</xpath>
-                    <value>
-                        <tradeability>None</tradeability>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_Needle"]/tradeability</xpath>
             </Operation>
             <Operation Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Gun_Needle"]</xpath>
-                    <value>
-                       <destroyOnDrop>true</destroyOnDrop>
-                    </value>
+                <xpath>Defs/ThingDef[defName = "Gun_Needle"]/destroyOnDrop</xpath>
             </Operation>
         </operations>
     </Operation>
